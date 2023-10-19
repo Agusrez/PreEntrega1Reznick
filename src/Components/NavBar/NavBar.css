@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgb(36, 36, 36);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.titulo {
+    color: white;
+    font-weight: 600;
+}
+.item {
+    color: white;
+    text-decoration: none;
+}
+.lista {
+    display: flex;
+    text-decoration: none;
+    list-style-type:none;
+    column-gap: 20px;
+}

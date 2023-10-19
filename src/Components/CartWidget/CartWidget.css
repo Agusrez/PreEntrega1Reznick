@@ -1,0 +1,11 @@
+.cart-widget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.notificacion {
+    color: white;
+}
+.carrito {
+    height: 40px;
+}
