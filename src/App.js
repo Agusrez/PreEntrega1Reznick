@@ -1,18 +1,20 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import ItemList from './Components/ItemList/ItemList';
 
 function App() {
-  const greeting = 'Hola'
   return (
     <div className="App">
-      <header className="App-header">
+      <BrowserRouter>
         <NavBar/>
-      </header>
-      <div>
-        <ItemListContainer greeting={greeting} />
-      </div>
+          <Routes>
+            
+          </Routes>
+        <ItemList/>
+      </BrowserRouter>
     </div>
   );
 }

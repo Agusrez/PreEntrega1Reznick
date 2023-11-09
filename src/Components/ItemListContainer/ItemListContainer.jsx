@@ -1,11 +1,10 @@
 import React from 'react'
+import ItemList from '../ItemList/ItemList'
 
-const ItemListContainer = (props) => {
+const ItemListContainer = () => {
 return (
     <div>
-        <h1>
-            {props.greeting}
-        </h1>
+
     </div>
 )
 }

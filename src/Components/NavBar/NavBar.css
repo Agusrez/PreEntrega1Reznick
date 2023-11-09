@@ -20,4 +20,6 @@
     text-decoration: none;
     list-style-type:none;
     column-gap: 20px;
+    align-items: center;
+    padding: 0;
 }
